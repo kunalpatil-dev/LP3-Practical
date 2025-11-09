@@ -1,6 +1,6 @@
-# Blockchain Technology – LP-III (SPPU)
+# Design & Analysis of Algorithms – LP-III (SPPU)
 
-This directory contains Blockchain (Solidity) practical experiments for LP-III (Final Year CSE – SPPU).
+This directory contains DAA practical experiments for LP-III (Final Year CSE – SPPU).
 
 ---
 
@@ -8,64 +8,44 @@ This directory contains Blockchain (Solidity) practical experiments for LP-III (
 
 | Sr | Filename                   | Description |
 |----|---------------------------|-------------|
-| 1  | Bank_SmartContract_03.sol | Bank account smart contract |
-| 2  | Employee_05.sol           | Employee record smart contract |
-| 3  | Solidity_04.sol           | Student data smart contract |
+| 1  | Fibonacci_NonRecursive_01.java | Fibonacci – Non-recursive |
+| 2  | Fibonacci_Recursive_01.java    | Fibonacci – Recursive |
+| 3  | HuffmanEncoding_02.java        | Huffman encoding – Greedy |
+| 4  | Knapsack_Greedy_03.java        | Fractional Knapsack |
+| 5  | Knapsack_DP_04.java            | 0/1 Knapsack – DP |
+| 6  | NQueens_05.java                | N-Queens – Backtracking |
 
 ---
 
 ## 📘 Experiment Details
 
-### ✅ 1) Bank Account Smart Contract
-Features:
-- Deposit money  
-- Withdraw money  
-- Show balance  
+### ✅ 1) Fibonacci (Recursive + Non-Recursive)
+- Compute nth Fibonacci number
+- Compare time & space complexity
 
-Concepts:
-- Functions
-- Mappings
+### ✅ 2) Huffman Encoding
+- Greedy strategy
+- Generate prefix code for input characters
 
----
+### ✅ 3) Fractional Knapsack – Greedy
+- Maximize profit based on value/weight ratio
 
-### ✅ 2) Employee Data (Struct)
-- Structure: ID, name, salary, joining date
-- Store & retrieve employee info
-- Gas usage observation
+### ✅ 4) 0/1 Knapsack – DP
+- Standard DP approach
+- Maximize profit with weight constraints
 
----
-
-### ✅ 3) Student Data (Struct + Array + Fallback)
-- Store student information
-- Arrays + Struct usage
-- Fallback function
-- Deployed on test network
-- Gas cost analysis
+### ✅ 5) N-Queens – Backtracking
+- Place N queens safely on board
+- Prints valid configuration
 
 ---
 
-## 🛠 Tools Used
-- Solidity
-- Remix IDE
-- MetaMask (optional)
+## 🛠 Languages Used
+- Java
 
 ---
 
 ## ▶ How to Run
-1) Open **Remix IDE**
-2) Create `.sol` file → Paste code
-3) Compile
-4) Deploy & test contract
-
----
-
-## 📌 Notes
-- Make sure to use correct Solidity version (`pragma` line).
-- Keep MetaMask connected to test network.
-
----
-
-## 👤 Author
-**Kunal Patil**  
-Computer Engineering – SPPU  
-
+```bash
+javac filename.java
+java filename
