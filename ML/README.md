@@ -57,3 +57,9 @@ This directory contains Machine Learning practical experiments for the LP-III cu
 ## ▶ How to Run
 ```bash
 python filename.py
+
+---
+
+## 👤 Author
+**Kunal Patil**  
+Computer Engineering – SPPU  
